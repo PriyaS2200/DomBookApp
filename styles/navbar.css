@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-    background-color: turquoise;
+    background-color: rgb(150, 230, 222);
 }
 
 a {

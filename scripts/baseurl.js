@@ -1,0 +1,1 @@
+export let baseurl = "https://charming-mixolydian-cyclamen.glitch.me";

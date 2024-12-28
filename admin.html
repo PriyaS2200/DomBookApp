@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/admin.css">
 
 </head>
 <body>
     <div id="nav"></div>
+    <h2>Add New Books</h2>
+    <form id="form">
+        <input type="text" placeholder="Title" id="title">
+        <input type="text" placeholder="Author" id="author">
+        <select name="" id="category">
+            <option>Category</option>
+            <option value="fiction">Fiction</option>
+            <option value="comedy">Comedy</option>
+            <option value="technical">Technical</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="container"></div>
     <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/admin.js" type="module"></script>
 </body>
 </html>
