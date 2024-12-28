@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: turquoise;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 5px lightcoral;
+}
+
+a:hover {
+    color: grey;
+    background-color: lightblue;
+}
